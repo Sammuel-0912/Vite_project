@@ -1,0 +1,126 @@
+.banner {
+  text-align: center;
+  background-repeat: no-repeat;
+  background-image:url(/./././images/banner-co-branded.png);
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  position: relative;
+  .star-img {
+    position: absolute;
+    width: 48px; 
+    top: 68px; 
+    left : calc(50% - 380px); 
+  }
+  .sparkle-img {
+    position: absolute;
+    width: 76px;
+    bottom: 132px;
+    left: calc(50% + 280px); 
+  }
+}
+.category {
+  position: relative;
+  .category-text {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(black,0.4);
+    color: white; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+.flex-grow-1 {
+  flex-grow: 1;
+}
+.column-gap-8 {
+  column-gap: 8px;
+}
+.row-gap-8 {
+  row-gap: 8px;
+}
+.w-66 {
+  width: 66%;
+}
+.w-33 {
+  width: 33%;
+}
+.img {
+  max-width: 100%;
+  min-width: 0;
+  display: block;
+  object-fit: cover;
+}
+.product {
+  position: relative; 
+  .product-text {
+    position: absolute;
+    top: 0;
+    left: 0; 
+    padding: 8px 12px;
+    background-color: $bs-primary-100; 
+    font-size: 14px;
+    color: $bs-primary-400; 
+  }
+}
+
+
+@media (max-width:767px) {
+  .product-md-row {
+    margin-left: -8px;
+    margin-right: -8px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; 
+
+  }
+  .product-md-col {
+    min-width: 320px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .banner {
+    padding: 64px 0; 
+    background-image: url(/./././images/banner-co-branded-sm.png);
+    padding: 12px 24px;
+    overflow-x: hidden;
+  }
+  .star-img {
+    top: 32px;
+    left: -20px; 
+  }
+  .sparkle-img {
+    bottom: 104px;
+    right: 28px; 
+  }
+  .column-md-gap-16 {
+    column-gap: 16px;
+  }
+  .overflow-x-md-auto {
+      overflow-x: auto;
+    }
+  .d-md-contents {
+      display: contents;
+    }
+  .min-width {
+    width: 300px;
+    height: 300px;
+    min-width: auto;
+    }
+    .d-md-none {
+      display: none;
+    } 
+}

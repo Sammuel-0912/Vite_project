@@ -1,0 +1,163 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+   outline: 1px solid; 
+}
+
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+img {
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+}
+
+.py-32 {
+  padding: 32px 0;
+}
+body {
+  font-family: "Montserrat", "Noto Sans TC", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap; 
+  margin-left: -12px;
+  margin-right: -12px; 
+}
+.justify-between {
+  justify-content: space-between;
+}
+.d-flex-end {
+ justify-content: flex-end; 
+}
+
+.d-flex {
+  display: flex;
+}
+
+.left-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  margin: 0 auto; 
+  padding-left: 12px;
+  padding-right: 12px;
+  max-width: 100%; 
+}
+.row {
+  display: flex;
+  flex-wrap: wrap; 
+  margin-right: -12px; 
+  width: 100%;
+}
+.justify-between {
+  justify-content: space-between;
+}
+
+.card {
+  border: 1px solid black;
+}
+
+.card img {
+  width: 302.67px;
+  height: 302.67px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+.card-price {
+  padding: 5px; 
+  margin-bottom: 48px;
+}
+.card-price h2 {
+  font-size: 16px;
+  font-family: "Noto Sans TC";
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  margin-bottom: 4px;
+}
+
+.card-price h3 {
+  font-size: 16px;
+  font-family: "Noto Sans TC";
+  line-height: 1.5;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+}
+
+.f-wrap {
+  flex-wrap: wrap;
+}
+.f-end {
+  justify-content: flex-end;
+}
+.page-item .btn {
+  padding: 8px 15px; 
+  border-radius: none; 
+  font-weight: 400;
+}
+.page-item .active {
+  background-color: $bs-primary-200;
+  font-weight: 500;
+}
+.bg-primary-200 {
+  background-color: $bs-primary-200;  
+}
+.btn-dark {
+  background-color: #212529d9; 
+  color: white; 
+  border-radius: none; 
+}
+
+
+@media (max-width: 767px) {
+  .row {
+    margin-left: -6px; 
+    margin-right: -6px;
+  }
+  .col-md-1 {
+    padding-left: 6px;
+    padding-right: 6px;
+    width: calc(100% /4); 
+  }
+  .col-md-2 {
+     padding-left: 6px;
+    padding-right: 6px;
+    width: calc(100% / 4 *2); 
+  }
+   .col-md-3 {
+     padding-left: 6px;
+    padding-right: 6px;
+    width: calc(100% / 4 *3); 
+  }
+   .col-md-3 {
+     padding-left: 6px;
+    padding-right: 6px;
+    width: calc(100% / 4 *4); 
+  }
+  .nav {
+    max-width: 696px;
+  }
+  .container {
+    padding: 0 8px; 
+  }
+  
+}
+@media (max-width: 576px) {
+  .icon {
+    flex-direction: column; 
+  }
+  
+/*   .row {
+    flex-direction: column;  */
+  }

@@ -1,0 +1,292 @@
+h1 {
+  font-size: 48px; 
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+h6 {
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: $neutral-900;
+}
+p {
+  line-height: 1.5;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+}
+
+.h1 {
+  
+  line-height: 1.2;
+  font-weight: 700;
+  font-size: 48px;
+
+}
+.h2 {
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: $neutral-900;
+    font-size: 32px;
+}
+.h3 {
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: $neutral-0;
+    
+}
+.h4 {
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: $neutral-0; 
+}
+.h5 {
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    color: $neutral-900;
+}
+.h6 {
+  color: #212529d9; 
+  font-family: Mina; 
+  
+  letter-spacing: 0.044em;
+  line-height: 1.5;
+  font-weight: 700;
+}
+.display-2 {
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: $neutral-0;
+    font-size: 48px; 
+}
+a {
+  text-decoration: none;
+  color: $neutral-900 ;
+  line-height: 1.5;
+  font-weight: 500;
+  letter-spacing: 0.05em;  
+}
+.neutral-900 {
+  color:$neutral-900; 
+}
+.text-lg {
+    font-size: 24px; 
+}
+.text-sm {
+    font-size: 20px; 
+}
+.text-20 {
+  font-size: 20px;
+}
+.text-28 {
+  font-size: 28px;
+}
+.text-24 {
+  font-size: 24px;
+}
+.text-white {
+    color:$neutral-0; 
+}
+.text-primary-300 {
+    color: $bs-primary-300; 
+}
+.text-primary-400 {
+    color: $bs-primary-400; 
+}
+.text-neutral-500 {
+    color: $neutral-500; 
+}
+.text-neutral-600 {
+    color: $neutral-600; 
+}
+.px-24 {
+    padding: 0 24px;
+}
+.mt-16 {
+  margin-top: 16px;
+}
+.py-8 {
+  padding: 8px; 
+}
+.py-12 {
+  padding: 12px; 
+}
+.py-64 {
+  padding: 64px; 
+}
+.mr-12 {
+  margin-right: 12px;
+}
+.me-24 {
+  margin-right: 24px; 
+}
+.me-80 {
+  margin-right: 0 80px;
+}
+.mb-48 {
+  margin-bottom: 48px;
+}
+.mb-80 {
+  margin-bottom: 80px;
+}
+.mb-12 {
+  margin-bottom: 12px;
+}
+.mb-16 {
+  margin-bottom: 16px;
+}
+.mb-24 {
+  margin-bottom: 24px;
+}
+.mb-32 {
+  margin-bottom: 32px;
+}
+.main {
+  width: 100%; 
+}
+.mb-4 {
+  margin-bottom: 4px;
+}
+
+.mb-12 {
+  margin-bottom: 12px;
+}
+.mb-4 {
+  margin-bottom: 4px; 
+}
+.me-auto {
+  margin-right: auto; 
+}
+.mt-64 {
+  margin-top: 64px;
+}
+.ml-auto {
+  margin-left: auto;
+}
+.mr-auto {
+  margin-right: auto;
+}
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+.col-1 {
+  padding-left: 12px;
+  padding-right: 12px;
+  width: calc(100% /12); 
+}
+
+.col-2 {
+  padding-left: 12px;
+  padding-right: 12px;
+  width: calc(100%/12)*2 ; 
+}
+.col-3 {
+  padding-left: 12px;
+  padding-right: 12px;
+  width: calc(100% /12 *3) ; 
+}
+
+.col-4 {
+  padding-left: 12px;
+  padding-right: 12px;
+  width: calc(100% /12 *4) ; 
+}
+.col-6 {
+  padding-left: 12px;
+  padding-right: 12px;
+  width: calc(100% /12 *6); 
+}
+.col-7 {
+  padding-left: 12px;
+  padding-right: 12px;
+  width: calc(100% /12 *7); 
+}
+.col-8 {
+  padding-left: 12px;
+  padding-right: 12px;
+  width: calc(100% /12 *8); 
+}
+.col-9 {
+  padding-left: 12px;
+  padding-right: 12px;
+  width: calc(100% /12 *9) ; 
+}
+.col-10 {
+  padding-left: 12px;
+  padding-right: 12px;
+  width: calc(100% /12 *10); 
+}
+.d-flex {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+@media (max-width: 767px) {
+    .h1-md {
+        font-size: 40px;
+    }
+    .h2-md {
+        font-size: 32px;
+    }
+    .h3-md {
+        font-size:28px; 
+    }
+    .h6-md {
+      font-size: 16px;
+    }
+    .text-md-md {
+        font-size: 16px;
+    }
+    .py-md-16 {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    .py-md-24 {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+    .py-md-32 {
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+    .py-md-40 {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .d-md-block {
+        display: block;
+    }
+    .d-md-flex {
+        display: flex;
+    }
+    .d-md-none {
+        display: none;
+    }
+     .col-md-1 {
+      padding-left: 6px;
+      padding-right: 6px;
+      width: calc(100% /4);  
+    }
+    .col-md-2 {
+      padding-left: 6px;
+      padding-right: 6px;
+      width: calc(100% /4 *2); 
+    }
+     .col-md-3 {
+      padding-left: 6px;
+      padding-right: 6px; 
+      width: calc(100% /4 * 3);  
+    }
+     .col-md-4 {
+      padding-left: 6px;
+      padding-right: 6px;
+      width: calc(100% /4 *4);  
+    }
+}
+

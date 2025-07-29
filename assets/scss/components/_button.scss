@@ -1,0 +1,20 @@
+.btn {
+  border-radius:4px; 
+  padding: 12px 24px; 
+  line-height: 1.2; 
+  font-weight: 500; 
+  cursor: pointer; 
+  border: none; 
+  background-color: transparent; 
+  color: black; 
+}
+.btn-primary {
+  background-color: $bs-primary-300;
+}
+.btn-dark {
+  background-color: $neutral-900;
+  color: $neutral-0; 
+}
+.btn-light {
+  border: 1px solid $neutral-900; 
+}
